@@ -10,6 +10,11 @@ touch ~/.config/neovim/init.lua
 ```
 
 ###### Ubuntu
+```bash
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt update
+sudo apt install neovim
+```
 
 #### Configuration
 Add content of .config/neovim(https://github.com/AleksandrCherepanov/neovim-go/blob/main/.config/neovim) 
