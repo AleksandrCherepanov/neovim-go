@@ -6,16 +6,18 @@ Installation:
 ```bash
 brew install neovim
 mkdir -p ~/.config/neovim
-touch ~/.config/neovim/init.vim
+touch ~/.config/neovim/init.lua
 ```
 
 ###### Ubuntu
 
-#### Plugins
-Install plugins maganger from [repository](https://github.com/junegunn/vim-plug).
-
 #### Configuration
-Add content of [init.vim](https://github.com/AleksandrCherepanov/neovim-go/blob/main/.config/nvim/init.vim) 
-to `~/.config/neovim/init.vim`.
+Add content of .config/neovim(https://github.com/AleksandrCherepanov/neovim-go/blob/main/.config/neovim) 
+to `~/.config/neovim`.
 
-Install plugins using `:PlugInstall` command.
+#### Plugins
+Install plugins maganger from [repository](https://github.com/wbthomason/packer.nvim).
+Install plugins using `:PackerInstall` command.
+
+In order to add icons to file explorer use [fonts](https://www.nerdfonts.com/font-downloads). 
+I prefer `JetBrains Nerd` one
