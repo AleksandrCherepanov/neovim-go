@@ -5,3 +5,4 @@ require('plugins')
 require('nvim-tree').setup()
 
 require('keymaps')
+require('color')
